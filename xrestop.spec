@@ -1,12 +1,12 @@
 Summary:	X-Resource extension to provide 'top' like statistics
 Summary(pl):	Rozszerzenie X-Resource dostarczaj±ce statystyki w stylu "top"
 Name:		xrestop
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://freedesktop.org/Software/xrestop/%{name}-%{version}.tar.gz
-# Source0-md5:	5ff774ff9cbb5997f0fb68e712dee302
+# Source0-md5:	8bf9927fab3992290702d28c38b8a4ce
 URL:		http://www.freedesktop.org/Software/xrestop
 BuildRequires:	XFree86-devel
 BuildRequires:	ncurses-devel
@@ -52,6 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog
+%doc AUTHORS ChangeLog README 
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man?/*
