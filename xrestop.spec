@@ -1,5 +1,5 @@
 Summary:	X-Resource extension to provide 'top' like statistics
-Summary(pl):	Rozszerzenie X-Resource dostarczaj±ce statystyki w stylu "top"
+Summary(pl.UTF-8):   Rozszerzenie X-Resource dostarczajÄ…ce statystyki w stylu "top"
 Name:		xrestop
 Version:	0.3
 Release:	1
@@ -22,16 +22,16 @@ It should work with any server supporting the X-Resource extension
 (fd.o server and XFree86 4.3+, 'xdpyinfo|grep Resource' should tell
 you if your server has it).
 
-%description -l pl
-Xrestop u¿ywa rozszerzenia X-Resource, aby dostarczyæ statystyki w
-stylu "top" wykorzystania zasobów po stronie serwera przez ka¿dego
-pod³±czonego klienta X11. Jest to narzêdzie przeznaczone dla
-programistów, maj±ce pomóc w bardziej wydajnym wykorzystaniu zasobów
-serwera i szukaniu wycieków zasobów po stronie serwera.
+%description -l pl.UTF-8
+Xrestop uÅ¼ywa rozszerzenia X-Resource, aby dostarczyÄ‡ statystyki w
+stylu "top" wykorzystania zasobÃ³w po stronie serwera przez kaÅ¼dego
+podÅ‚Ä…czonego klienta X11. Jest to narzÄ™dzie przeznaczone dla
+programistÃ³w, majÄ…ce pomÃ³c w bardziej wydajnym wykorzystaniu zasobÃ³w
+serwera i szukaniu wyciekÃ³w zasobÃ³w po stronie serwera.
 
-Powinien dzia³aæ z ka¿dym serwerem obs³uguj±cym rozszerzenie
+Powinien dziaÅ‚aÄ‡ z kaÅ¼dym serwerem obsÅ‚ugujÄ…cym rozszerzenie
 X-Resource (serwer fd.o oraz XFree86 4.3+ - "xdpyinfo|grep Resource"
-poka¿e, czy serwer je ma).
+pokaÅ¼e, czy serwer je ma).
 
 %prep
 %setup -q
