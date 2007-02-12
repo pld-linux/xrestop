@@ -1,5 +1,5 @@
 Summary:	X-Resource extension to provide 'top' like statistics
-Summary(pl.UTF-8):   Rozszerzenie X-Resource dostarczające statystyki w stylu "top"
+Summary(pl.UTF-8):	Rozszerzenie X-Resource dostarczające statystyki w stylu "top"
 Name:		xrestop
 Version:	0.3
 Release:	1
