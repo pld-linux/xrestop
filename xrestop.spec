@@ -2,7 +2,7 @@ Summary:	X-Resource extension to provide 'top' like statistics
 Summary(pl.UTF-8):	Rozszerzenie X-Resource dostarczające statystyki w stylu "top"
 Name:		xrestop
 Version:	0.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications
 Source0:	http://projects.o-hand.com/sources/xrestop/%{name}-%{version}.tar.gz 
